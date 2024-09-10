@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balance and History page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+body {
+	background: url('water2.jpeg') no-repeat;
+            	background-size: cover;
+}
+.navbar {
+            	background-color: #00a8e8;
+}
+.navbar-brand {
+            		font-size: 24px;
+		font-family: cambria;
+            		font-weight: bold;
+		color: #1f2833;
+}
+.nav-link {
+             	color: #1f2833;
+	font-size: 20px;
+            	text-decoration: none;
+}
+.nav-link:hover {
+            		color: #0056b3;
+}
+.navbar-nav .nav-item {
+            			margin-left: 20px;
+}
+.account-balance-card {
+            			width: 350px;
+            			padding: 20px;
+            			margin: 20px auto;
+            			text-align: center;
+}
+.account-balance-card h2 {
+			font-family: cambria;
+            			color: black;
+}
+.account-balance-card p {
+            			color: #28a745;
+			font-weight: 600;
+            			font-size: 44px;
+}
+.container h2{
+		text-align: center;
+		font-family: cambria;
+		text-color: black;
+}
+       
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm">
+<a href="#" class="navbar-brand ms-3">Laxmi Chit Fund</a>
+<ul class="navbar-nav ml-auto">
+<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+<li class="nav-item"><a href="registration.html" class="nav-link">New Account</a></li>
+<li class="nav-item"><a href="accountdetails.html" class="nav-link">Account Details</a></li>
+</ul>
+</nav>
+
+<div class="account-balance-card">
+<h2><u>Account</u> <u>Balance</u></h2><br>
+<p>&#8377 5,400.75</p>
+</div>
+
+<div class="container">
+<h2><u>Transaction</u> <u>History</u></h2><br>
+<div class="table-responsive">
+<table class="table table-bordered">
+<thead class="table-dark">
+<tr>
+<th scope="col">Date</th>
+<th scope="col">Description</th>
+<th scope="col">Amount</th>
+<th scope="col">Balance</th>
+</tr>
+</thead>
+
+<tbody class="bg-white">
+<tr>
+<td>01/09/2024</td>
+<td>Salary Deposit</td>
+<td>&#8377 3,000.00</td>
+<td>&#8377 5,400.75</td>
+</tr>
+
+<tr>
+<td>02/09/2024</td>
+<td>Furniture Shopping</td>
+<td>-&#8377 200.50</td>
+<td>&#8377 2,400.75</td>
+</tr>
+
+<tr>
+<td>04/09/2024</td>
+<td>Gas Bill</td>
+<td>-&#8377 120.30</td>
+<td>&#8377 2,601.25</td>
+
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</body>
+</html>

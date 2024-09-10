@@ -1,0 +1,161 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+body {
+            margin: 0;
+            background: url('water2.jpeg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+}
+.navbar {
+            	background-color: #00a8e8;
+            	color: white;
+            	padding: 10px;
+            	text-align: center;
+            	display: flex;
+            	justify-content: space-between;
+            	align-items: center;
+}
+.navbar .logo {
+            		font-size: 24px;
+		font-family: cambria;
+		color: #1f2833;
+            		font-weight: bold;
+}
+.navbar a {
+            		color: #1f2833;
+		font-size: 20px;
+            		text-decoration: none;
+            		padding: 10px 20px;
+            		display: inline-block;
+}
+.navbar a:hover {
+            		color: #0056b3;
+}
+.container {
+            		background-color: white;
+            		padding: 30px;
+            		border-radius: 8px;
+          	
+            		max-width: 1000px;
+            		width: 100%;
+            		margin: 20px auto;
+}
+        .container header {
+            font-size: 46px;
+            font-family: cambria;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-label {
+            font-weight: 600;
+        }
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        .form-group div {
+            flex: 1;
+            margin: 5px;
+            padding: 5px;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid silver;
+        }
+        .form-group input[type="date"] {
+            padding: 8px;
+        }
+      
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+<div class="logo">Laxmi Chit Fund Bank</div>
+<div>
+<a href="index.html">Home</a>
+<a href="accountdetails.html">Account Details</a>
+<a href="balance and history.html">Account Balance</a>
+<a href="balance and history.html">Transaction History</a>
+</div>
+</div>
+
+<div class="container">
+<header><u>Registration</u> <u>Form</u></header>
+
+<form action="index.html" method="post">
+<div class="form-group">
+<div>
+<label for="fullName" class="form-label">Full Name:</label>
+<input type="text" id="fullName" required>
+</div>
+<div>
+<label for="passwod" class="form-label">New password:</label>
+<input type="password" id="password" required>
+</div>
+</div>
+<div class="form-group">
+<div>
+<label for="city" class="form-label">City:</label>
+<input type="city" id="password" required>
+</div>
+<div>
+<label for="state" class="form-label">State:</label>
+<input type="state" id="confirmPassword" required>
+</div>
+</div>
+<div class="form-group">
+<div>
+<label for="birthDate" class="form-label">Birth Date:</label>
+<input type="date" id="birthDate" required>
+</div>
+<div>
+<label for="accountType" class="form-label">Account Type:</label>
+<select id="accountType" required>
+<option value="personal">Personal</option>
+<option value="savings">Savings</option>
+<option value="current">Current</option>
+<option value="salary">Salary</option>
+<option value="business">Business</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<div>
+<label for="phoneNumber" class="form-label">Phone Number:</label>
+<input type="text" id="phoneNumber" required>
+</div>
+           
+<div>
+<label for="email" class="form-label">Email:</label>
+<input type="email" id="email" required>
+</div>
+</div>
+
+<p>Already have an account? <a href="login.html">Login here</a></p>
+
+<button style="width: 100%;" type="submit" class="btn btn-primary">Register</button><br><br>
+       
+</form>
+<ul class="pagination">
+<li><a class="page-link" href="index.html">Home</a></li>
+<li><a class="page-link" href="login.html">1</a></li>
+<li><a class="page-link" href="accountdetails.html">2</a></li>
+<li><a class="page-link" href="balance and history.html">3</a></li>
+<li><a class="page-link" href="index.html">Next</a></li>
+</ul>
+</div>
+
+</body>
+</html>
